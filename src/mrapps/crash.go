@@ -8,20 +8,23 @@ package main
 // go build -buildmode=plugin crash.go
 //
 
-import "../mr"
-import crand "crypto/rand"
-import "math/big"
-import "strings"
-import "os"
-import "sort"
-import "strconv"
-import "time"
+import (
+	crand "crypto/rand"
+	"math/big"
+	"os"
+	"sort"
+	"strconv"
+	"strings"
+	"time"
+
+	"../mr"
+)
 
 func maybeCrash() {
 	max := big.NewInt(1000)
 	rr, _ := crand.Int(crand.Reader, max)
 	if rr.Int64() < 330 {
-		// crash!
+		// crash! test-mr.sh will restart mrworker until all work done
 		os.Exit(1)
 	} else if rr.Int64() < 660 {
 		// delay for a while.
@@ -31,6 +34,7 @@ func maybeCrash() {
 	}
 }
 
+// Map of nocrash / crash add same thing for every input file
 func Map(filename string, contents string) []mr.KeyValue {
 	maybeCrash()
 
@@ -42,6 +46,7 @@ func Map(filename string, contents string) []mr.KeyValue {
 	return kva
 }
 
+// Reduce of nocrash / crash just sort []string, do not return the length of it
 func Reduce(key string, values []string) string {
 	maybeCrash()
 

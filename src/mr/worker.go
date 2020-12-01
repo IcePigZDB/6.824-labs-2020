@@ -1,10 +1,15 @@
 package mr
 
-import "fmt"
-import "log"
-import "net/rpc"
-import "hash/fnv"
-
+import (
+	"encoding/json"
+	"fmt"
+	"hash/fnv"
+	"io/ioutil"
+	"log"
+	"net/rpc"
+	"os"
+	"strings"
+)
 
 //
 // Map functions return a slice of KeyValue.
@@ -24,41 +29,163 @@ func ihash(key string) int {
 	return int(h.Sum32() & 0x7fffffff)
 }
 
+type worker struct {
+	workerID uint
+	mapf     func(string, string) []KeyValue
+	reducef  func(string, []string) string
+}
+
+// register to master to get workerID
+func (w *worker) register() {
+	args := &RegWorkerArgs{}
+	reply := &RegWorkerReply{}
+	if ok := call("Master.RegWorker", args, reply); !ok {
+		log.Fatal("in register worker:" + fmt.Sprint(w.workerID) + "call rpc RegWorker fail.")
+	}
+	w.workerID = reply.WorkerID
+}
+
+// run till server close
+func (w *worker) run() {
+	// if reqTask conn fail,worker exit
+	for {
+		t := w.reqTask()
+		if !t.Alive {
+			DPrintf("worker get task not alive,exit")
+			return
+		}
+		w.doTask(t)
+	}
+}
+
+// req a task
+func (w *worker) reqTask() Task {
+	args := ReqTaskArgs{WorkerID: w.workerID}
+	reply := ReqTaskReply{}
+	if ok := call("Master.ReqOneTask", &args, &reply); !ok {
+		log.Fatal("in ReqTask worker:" + fmt.Sprint(w.workerID) + "call rpc ReqTask fail.")
+	}
+	DPrintf("worker %d fetch s% task %d.\n", w.workerID, reply.Task.Phase, reply.Task.Seq)
+	return *reply.Task
+}
+
+// report task status done or err
+func (w *worker) reportTask(t Task, done bool, err error) {
+	if err != nil {
+		log.Printf("%v", err)
+	}
+	args := ReportTaskArgs{
+		Done:     done,
+		Seq:      t.Seq,
+		Phase:    t.Phase,
+		WorkerID: w.workerID}
+	reply := ReportTaskReply{}
+	if ok := call("Master.ReportTask", &args, &reply); !ok {
+		DPrintf("report task fail:%+v", args)
+	}
+}
+
+// do task{map,reudece}
+func (w *worker) doTask(t Task) {
+	switch t.Phase {
+	case MapPhash:
+		w.doMapTask(t)
+	case ReducePhash:
+		w.doReduceTask(t)
+	default:
+		log.Fatal("task phase err")
+	}
+}
+
+// doMapTask
+// read task.Filename hash it into nReduce buffer and write to nReduce file
+func (w *worker) doMapTask(t Task) {
+	contents, err := ioutil.ReadFile(t.Filename)
+	if err != nil {
+		panic("in doMapTask open file error:" + err.Error())
+	}
+	// mapf make split contents into kvs
+	kvs := w.mapf(t.Filename, string(contents))
+	// ihash to corresponding reduceBuffers
+	reduceBuffers := make([][]KeyValue, t.NReduce)
+	for _, kv := range kvs {
+		reduceNum := uint(ihash(kv.Key)) % t.NReduce
+		reduceBuffers[reduceNum] = append(reduceBuffers[reduceNum], kv)
+	}
+	for idx, reduce := range reduceBuffers {
+		// open file
+		filename := reduceName(t.Seq, uint(idx))
+		f, err := os.Create(filename)
+		if err != nil {
+			panic("in doMapTask,create reduce file fail")
+		}
+		enc := json.NewEncoder(f)
+		for _, kv := range reduce {
+			// write to file
+			if err := enc.Encode(&kv); err != nil {
+				w.reportTask(t, false, err)
+			}
+		}
+		// close file
+		if err := f.Close(); err != nil {
+			w.reportTask(t, false, err)
+		}
+	}
+	// normal report
+	w.reportTask(t, true, nil)
+	DPrintf("\nworkerID:%d,taskID:%d,map filename%s: done\n", w.workerID, t.Seq, t.Filename)
+}
+
+// read nRedece file and count total number with map[string][]string
+// the key is that map[kv.Key] = kv.Value (it required by map and reduce func)
+func (w *worker) doReduceTask(t Task) {
+	// reduce merge nMpas file
+	maps := make(map[string][]string)
+	for i := 0; i < int(t.NMaps); i++ {
+		filename := reduceName(uint(i), t.Seq)
+		// DPrintf("reduce filename:%v", filename)
+		file, err := os.Open(filename)
+		if err != nil {
+			w.reportTask(t, false, err)
+		}
+		dec := json.NewDecoder(file)
+		var kv KeyValue
+		for {
+			if err := dec.Decode(&kv); err != nil {
+				break
+			}
+			// if not exist init []
+			if _, ok := maps[kv.Key]; !ok {
+				maps[kv.Key] = make([]string, 0, 100)
+			}
+			// append
+			maps[kv.Key] = append(maps[kv.Key], kv.Value)
+		}
+	}
+	// eg: wdb 100 \n word 200 \n count 10
+	res := make([]string, 100)
+	for k, v := range maps {
+		res = append(res, fmt.Sprintf("%v %v\n", k, w.reducef(k, v)))
+	}
+	// write to final file
+	if err := ioutil.WriteFile(mergeName(t.Seq), []byte(strings.Join(res, "")), 0600); err != nil {
+		w.reportTask(t, false, err)
+	}
+	w.reportTask(t, true, nil)
+	DPrintf("workerID:%d,reduce taskID %d: done", w.workerID, t.Seq)
+}
 
 //
 // main/mrworker.go calls this function.
 //
 func Worker(mapf func(string, string) []KeyValue,
 	reducef func(string, []string) string) {
-
 	// Your worker implementation here.
-
-	// uncomment to send the Example RPC to the master.
-	// CallExample()
-
-}
-
-//
-// example function to show how to make an RPC call to the master.
-//
-// the RPC argument and reply types are defined in rpc.go.
-//
-func CallExample() {
-
-	// declare an argument structure.
-	args := ExampleArgs{}
-
-	// fill in the argument(s).
-	args.X = 99
-
-	// declare a reply structure.
-	reply := ExampleReply{}
-
-	// send the RPC request, wait for the reply.
-	call("Master.Example", &args, &reply)
-
-	// reply.Y should be 100.
-	fmt.Printf("reply.Y %v\n", reply.Y)
+	w := worker{}
+	w.mapf = mapf
+	w.reducef = reducef
+	w.register()
+	w.run()
 }
 
 //

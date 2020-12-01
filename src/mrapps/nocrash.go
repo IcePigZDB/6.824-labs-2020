@@ -6,23 +6,29 @@ package main
 // go build -buildmode=plugin nocrash.go
 //
 
-import "../mr"
-import crand "crypto/rand"
-import "math/big"
-import "strings"
-import "os"
-import "sort"
-import "strconv"
+import (
+	crand "crypto/rand"
+	"math/big"
+	"os"
+	"sort"
+	"strconv"
+	"strings"
+
+	"../mr"
+)
 
 func maybeCrash() {
 	max := big.NewInt(1000)
 	rr, _ := crand.Int(crand.Reader, max)
+	// Reduce of nocrash / crash just sort []string, do not return the length of it
+	// nocrash false
 	if false && rr.Int64() < 500 {
 		// crash!
 		os.Exit(1)
 	}
 }
 
+// Map of nocrash / crash add same thing for every input file
 func Map(filename string, contents string) []mr.KeyValue {
 	maybeCrash()
 
@@ -34,6 +40,7 @@ func Map(filename string, contents string) []mr.KeyValue {
 	return kva
 }
 
+// Reduce of nocrash / crash just sort []string, do not return the length of it
 func Reduce(key string, values []string) string {
 	maybeCrash()
 
