@@ -49,6 +49,7 @@ func (w *worker) register() {
 func (w *worker) run() {
 	// if reqTask conn fail,worker exit
 	for {
+		DPrintf("workerID:%d begin req for task", w.workerID)
 		t := w.reqTask()
 		if !t.Alive {
 			DPrintf("worker get task not alive,exit")
@@ -63,9 +64,9 @@ func (w *worker) reqTask() Task {
 	args := ReqTaskArgs{WorkerID: w.workerID}
 	reply := ReqTaskReply{}
 	if ok := call("Master.ReqOneTask", &args, &reply); !ok {
-		log.Fatal("in ReqTask worker:" + fmt.Sprint(w.workerID) + "call rpc ReqTask fail.")
+		log.Fatal("in ReqTask worker:" + fmt.Sprint(w.workerID) + " call rpc ReqTask fail.Don't worry it is normally caused by master finish all task and close conn.")
 	}
-	DPrintf("worker %d fetch s% task %d.\n", w.workerID, reply.Task.Phase, reply.Task.Seq)
+	DPrintf("in reqTask: worker %d fetch s% task %d.", w.workerID, reply.Task.Phase, reply.Task.Seq)
 	return *reply.Task
 }
 
@@ -88,9 +89,9 @@ func (w *worker) reportTask(t Task, done bool, err error) {
 // do task{map,reudece}
 func (w *worker) doTask(t Task) {
 	switch t.Phase {
-	case MapPhash:
+	case MapPhase:
 		w.doMapTask(t)
-	case ReducePhash:
+	case ReducePhase:
 		w.doReduceTask(t)
 	default:
 		log.Fatal("task phase err")
@@ -133,17 +134,18 @@ func (w *worker) doMapTask(t Task) {
 	}
 	// normal report
 	w.reportTask(t, true, nil)
-	DPrintf("\nworkerID:%d,taskID:%d,map filename%s: done\n", w.workerID, t.Seq, t.Filename)
+	DPrintf("in doMapTask: workerID:%d,taskID:%d,map filename%s: done", w.workerID, t.Seq, t.Filename)
 }
 
 // read nRedece file and count total number with map[string][]string
 // the key is that map[kv.Key] = kv.Value (it required by map and reduce func)
 func (w *worker) doReduceTask(t Task) {
+	DPrintf("in doRedeuceTask: workerID%d begin to do reduce taskID:%d in pahse:%s", w.workerID, t.Seq, t.Phase)
 	// reduce merge nMpas file
 	maps := make(map[string][]string)
 	for i := 0; i < int(t.NMaps); i++ {
 		filename := reduceName(uint(i), t.Seq)
-		// DPrintf("reduce filename:%v", filename)
+		DPrintf("in doReduceTask: reduce filename:%v", filename)
 		file, err := os.Open(filename)
 		if err != nil {
 			w.reportTask(t, false, err)
@@ -162,17 +164,19 @@ func (w *worker) doReduceTask(t Task) {
 			maps[kv.Key] = append(maps[kv.Key], kv.Value)
 		}
 	}
+	DPrintf("in doReduceTask: reduce point2 begin to reducef")
 	// eg: wdb 100 \n word 200 \n count 10
 	res := make([]string, 100)
 	for k, v := range maps {
 		res = append(res, fmt.Sprintf("%v %v\n", k, w.reducef(k, v)))
 	}
+	DPrintf("in doReduceTak: reduce point3 write")
 	// write to final file
 	if err := ioutil.WriteFile(mergeName(t.Seq), []byte(strings.Join(res, "")), 0600); err != nil {
 		w.reportTask(t, false, err)
 	}
 	w.reportTask(t, true, nil)
-	DPrintf("workerID:%d,reduce taskID %d: done", w.workerID, t.Seq)
+	DPrintf("in doReduceTask: workerID:%d,reduce taskID %d: done", w.workerID, t.Seq)
 }
 
 //

@@ -5,10 +5,13 @@ import "fmt"
 type TaskPhase int
 
 const (
-	MapPhash    TaskPhase = 0
-	ReducePhash TaskPhase = 1
+	MapPhase    TaskPhase = 0
+	ReducePhase TaskPhase = 1
 )
+
 const Debug = false
+
+// const Debug = true
 
 func DPrintf(formate string, v ...interface{}) {
 	if Debug {

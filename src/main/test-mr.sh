@@ -1,5 +1,11 @@
 #!/bin/sh
-set -x
+# set -x
+# write log to file if too long
+#Create output file, override if already present  
+
+#Write data to a file
+# undo it to put output into test-mr-output  
+# exec 1>test-mr-output
 #
 # basic map-reduce test
 #
@@ -7,17 +13,20 @@ set -x
 RACE=
 wc_test=1
 # i add a test that map and reduce func will delay for a while.
-# this code can not pass wc-wait_test
-# TODO how to fix runtime too small which lead to 
-# the sisuation is that
-# set MaxTaskRunTime small,many task will (p=1/2)wait for a while ,
-# we will make a lot of duplica task.when return a task to worker,i 
-# has check the status of task ,if TaskStatusFinish the task will be removed,
+# this code can not pass wc-wait_test at first,
+# and account bug that
+# set MaxTaskRunTime small,many task will (p=1/2)wait for a while(2s),
+# we will make a lot of duplica task.when return a task to worker,
+# check the status of task ,if TaskStatusFinish the task will be removed,
 # it shorter the time to do map phase.After map phase ,there may be some worker 
 # wait in m.taskCh,when reduce phase init,after task put into taskCh,it disapper
 # mysteriously.
-# to fix it ,set wc_wait_test to 1 and open Debug flag in ../mrapps/common.go
-wc_wait_test=0
+# (After add DPrintf,i find it is fetch by worker wait in taskCh imediatelly)
+# 并且遇到了reduce work 做不完的情况,后来也通过DPrint,
+# 找到问题所在了，因为reducef 是对每个key都进行的，按p(=1/2)的概率来time.Sleep,程序压根做不完。
+# 更好的测试是reduce worker只会延迟一次,不好处理这种，所以把延迟时间缩短到了ms级别。
+# 理论上多长时间延迟都可以过这个test,只要master worker timeout -k 2s xs 这个x足够长。
+wc_wait_test=1
 indexer_test=1
 map_parallelism_test=1
 reduce_parallelism_test=1
@@ -104,16 +113,16 @@ rm -f mr-out*
 
 echo '***' Starting wc test.
 
-timeout -k 2s 20s ../mrmaster ../pg*txt &
+timeout -k 2s 100s ../mrmaster ../pg*txt &
 # timeout -k 2s 180s ../mrmaster ../pg-my.txt &
 
 # give the master time to create the sockets.
 sleep 1
 
 # start multiple workers.
-timeout -k 2s 20s ../mrworker ../../mrapps/wc-wait.so &
-timeout -k 2s 20s ../mrworker ../../mrapps/wc-wait.so &
-timeout -k 2s 20s ../mrworker ../../mrapps/wc-wait.so &
+timeout -k 2s 100s ../mrworker ../../mrapps/wc-wait.so &
+timeout -k 2s 1000s ../mrworker ../../mrapps/wc-wait.so &
+timeout -k 2s 100s ../mrworker ../../mrapps/wc-wait.so &
 
 # wait for one of the processes to exit.
 # under bash, this waits for all processes,

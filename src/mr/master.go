@@ -51,9 +51,9 @@ func (m *Master) getTask(taskID uint) Task {
 		NMaps:    m.nMaps,
 		NReduce:  m.nReduce,
 		Alive:    true}
-	DPrintf("\ntaskCh长度:%d。当前TaskID:%d。\n当前taskStatus状态%+v。\n", len(m.taskCh), taskID, m.taskStats)
+	DPrintf("in getTask: askCh长度:%d。当前TaskID:%d。\n当前taskStatus状态%+v。", len(m.taskCh), taskID, m.taskStats)
 	// MapPhase task is split one file into NRduce file
-	if m.taskPhase == MapPhash {
+	if m.taskPhase == MapPhase {
 		task.Filename = m.files[taskID]
 	}
 
@@ -61,12 +61,12 @@ func (m *Master) getTask(taskID uint) Task {
 }
 
 func (m *Master) initMapTask() {
-	m.taskPhase = MapPhash
+	m.taskPhase = MapPhase
 	// default 0 = TaskStatusReady
 	m.taskStats = make([]TaskStatus, m.nMaps)
 }
 func (m *Master) initReduceTask() {
-	m.taskPhase = ReducePhash
+	m.taskPhase = ReducePhase
 	// default 0 = TaskStatusReady
 	m.taskStats = make([]TaskStatus, m.nReduce)
 }
@@ -74,7 +74,7 @@ func (m *Master) initReduceTask() {
 func (m *Master) reQueneTask(taskID uint) {
 	task := m.getTask(taskID)
 	m.taskCh <- task
-	DPrintf("\nput task:%d to channel len(ch):%d\n", task.Seq, len(m.taskCh))
+	DPrintf("in reQueneTask: put task:%d to channel len(ch):%d", task.Seq, len(m.taskCh))
 	m.taskStats[taskID].Status = TaskStatusQuene
 }
 func (m *Master) schedule() {
@@ -85,7 +85,7 @@ func (m *Master) schedule() {
 	}
 	allFinish := true
 	for index, stat := range m.taskStats {
-		DPrintf("%d,len(ch):%d\n", index, len(m.taskCh))
+		DPrintf("%d,len(ch):%d", index, len(m.taskCh))
 		switch stat.Status {
 		case TaskStatusReady:
 			allFinish = false
@@ -108,7 +108,7 @@ func (m *Master) schedule() {
 	}
 	// phase finish
 	if allFinish {
-		if m.taskPhase == MapPhash {
+		if m.taskPhase == MapPhase {
 			m.initReduceTask()
 		} else {
 			m.done = true
@@ -135,13 +135,14 @@ func (m *Master) regTask(args *ReqTaskArgs, task Task) {
 	m.taskStats[task.Seq].WorkerID = args.WorkerID
 	m.taskStats[task.Seq].StartTime = time.Now()
 }
-func (m *Master) fetchTask() Task {
+func (m *Master) fetchTask(args *ReqTaskArgs) Task {
 	for {
 		task := <-m.taskCh
+		DPrintf("in fetchTask: fetch task %d from taskCh for workerID:%d,task phase:%s,done%s", task.Seq, args.WorkerID, task.Phase, m.done)
 		if m.taskStats[task.Seq].Status != TaskStatusFinish {
 			return task
 		}
-		DPrintf("task ch clear taskID:%d,after len(ch):%d", task.Seq, len(m.taskCh))
+		DPrintf("in fetchTask: task ch clear taskID:%d,after len(ch):%d", task.Seq, len(m.taskCh))
 	}
 }
 
@@ -149,13 +150,13 @@ func (m *Master) fetchTask() Task {
 // the RPC argument and reply types are defined in rpc.go.
 
 func (m *Master) ReqOneTask(args *ReqTaskArgs, reply *ReqTaskReply) error {
-	task := m.fetchTask()
+	task := m.fetchTask(args)
 	reply.Task = &task
 
 	if task.Alive {
 		m.regTask(args, task)
 	}
-	DPrintf("%d fetch %s taskID%d,left len(ch):%d\n", args.WorkerID, m.taskPhase, task.Seq, len(m.taskCh))
+	DPrintf("in ReqOneTask: %d fetch taskID%d in pahse%s,left len(ch):%d", args.WorkerID, task.Seq, task.Phase, len(m.taskCh))
 	// DPrintf("in ReqOneTask,args:%+v,reply:%+v", args, reply)
 	return nil
 }
@@ -175,6 +176,7 @@ func (m *Master) ReportTask(args *ReportTaskArgs, reply *ReportTaskReply) error 
 	// TODO will a worker stop and overwrite other's work ? yes
 	// and we do not consider a part or fail overwrite.
 	// if a task has ben done by others
+	DPrintf("in ReportTask: worker%d report taskID%d in phase%s status=%s", args.WorkerID, args.Seq, args.Phase, args.Done)
 	if args.Phase != m.taskPhase || args.WorkerID != m.taskStats[args.Seq].WorkerID || m.taskStats[args.Seq].Status == TaskStatusFinish {
 		return nil
 	}
@@ -237,7 +239,7 @@ func MakeMaster(files []string, nReduce int) *Master {
 	} else {
 		m.taskCh = make(chan Task, nReduce)
 	}
-	// DPrintf("nMaps:%d,nReduce:%d,filename:files%v\n", m.nMaps, m.nReduce, m.files)
+	// DPrintf("nMaps:%d,nReduce:%d,filename:files%v", m.nMaps, m.nReduce, m.files)
 	m.initMapTask()
 	go m.tickSchedule()
 	m.server()

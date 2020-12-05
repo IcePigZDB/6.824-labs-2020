@@ -1,0 +1,3427 @@
+*** Starting wc test.
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):1
+1,len(ch):1
+in getTask: askCh长度:1。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):2
+2,len(ch):2
+in getTask: askCh长度:2。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):3
+3,len(ch):3
+in getTask: askCh长度:3。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):4
+4,len(ch):4
+in getTask: askCh长度:4。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):5
+5,len(ch):5
+in getTask: askCh长度:5。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):6
+6,len(ch):6
+in getTask: askCh长度:6。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):7
+7,len(ch):7
+in getTask: askCh长度:7。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+workerID:0 begin req for task
+workerID:1 begin req for task
+in fetchTask: fetch task 0 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID0 in pahse%!s(mr.TaskPhase=0),left len(ch):7
+in fetchTask: fetch task 1 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID1 in pahse%!s(mr.TaskPhase=0),left len(ch):6
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 0.
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 1.
+workerID:2 begin req for task
+in fetchTask: fetch task 2 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID2 in pahse%!s(mr.TaskPhase=0),left len(ch):5
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 0)ask 2.
+in ReportTask: worker0 report taskID0 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+in doMapTask: workerID:0,taskID:0,map filename../pg-being_ernest.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 3 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID3 in pahse%!s(mr.TaskPhase=0),left len(ch):4
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 3.
+in ReportTask: worker2 report taskID2 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+in doMapTask: workerID:2,taskID:2,map filename../pg-frankenstein.txt: done
+workerID:2 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID4 in pahse%!s(mr.TaskPhase=0),left len(ch):3
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 0)ask 4.
+in ReportTask: worker1 report taskID1 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+in doMapTask: workerID:1,taskID:1,map filename../pg-dorian_gray.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID5 in pahse%!s(mr.TaskPhase=0),left len(ch):2
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 5.
+in ReportTask: worker1 report taskID5 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+in doMapTask: workerID:1,taskID:5,map filename../pg-metamorphosis.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 6 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID6 in pahse%!s(mr.TaskPhase=0),left len(ch):1
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 6.
+in ReportTask: worker0 report taskID3 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+in doMapTask: workerID:0,taskID:3,map filename../pg-grimm.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID7 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 7.
+in ReportTask: worker2 report taskID4 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:2,taskID:4,map filename../pg-huckleberry_finn.txt: done
+workerID:2 begin req for task
+in ReportTask: worker0 report taskID7 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:0,taskID:7,map filename../pg-tom_sawyer.txt: done
+workerID:0 begin req for task
+in ReportTask: worker1 report taskID6 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:1,taskID:6,map filename../pg-sherlock_holmes.txt: done
+workerID:1 begin req for task
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):0
+1,len(ch):0
+in getTask: askCh长度:0。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):0
+2,len(ch):0
+in getTask: askCh长度:0。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):0
+3,len(ch):0
+in fetchTask: fetch task 0 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:0。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):1
+4,len(ch):1
+in fetchTask: fetch task 1 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:1。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):2
+5,len(ch):2
+in getTask: askCh长度:2。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):3
+6,len(ch):3
+in getTask: askCh长度:3。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):4
+7,len(ch):4
+in getTask: askCh长度:4。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):5
+8,len(ch):5
+in fetchTask: fetch task 2 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:5。当前TaskID:8。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:8 to channel len(ch):6
+9,len(ch):6
+in getTask: askCh长度:6。当前TaskID:9。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:9 to channel len(ch):7
+in ReqOneTask: 2 fetch taskID0 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in ReqOneTask: 0 fetch taskID1 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in ReqOneTask: 1 fetch taskID2 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 1)ask 0.
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 1.
+in doRedeuceTask: workerID2 begin to do reduce taskID:0 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-0
+in doRedeuceTask: workerID0 begin to do reduce taskID:1 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-1
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 2.
+in doRedeuceTask: workerID1 begin to do reduce taskID:2 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-2
+in doReduceTask: reduce filename:mr-1-0
+in doReduceTask: reduce filename:mr-1-1
+in doReduceTask: reduce filename:mr-1-2
+in doReduceTask: reduce filename:mr-2-0
+in doReduceTask: reduce filename:mr-2-1
+in doReduceTask: reduce filename:mr-3-0
+in doReduceTask: reduce filename:mr-3-1
+in doReduceTask: reduce filename:mr-2-2
+in doReduceTask: reduce filename:mr-4-0
+in doReduceTask: reduce filename:mr-4-1
+in doReduceTask: reduce filename:mr-3-2
+in doReduceTask: reduce filename:mr-5-1
+in doReduceTask: reduce filename:mr-5-0
+in doReduceTask: reduce filename:mr-6-1
+in doReduceTask: reduce filename:mr-6-0
+in doReduceTask: reduce filename:mr-7-1
+in doReduceTask: reduce filename:mr-7-0
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID1 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):7
+1,len(ch):7
+2,len(ch):7
+3,len(ch):7
+4,len(ch):7
+5,len(ch):7
+6,len(ch):7
+7,len(ch):7
+8,len(ch):7
+9,len(ch):7
+in doReduceTask: reduce filename:mr-4-2
+in doReduceTask: workerID:0,reduce taskID 1: done
+workerID:0 begin req for task
+in fetchTask: fetch task 3 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID3 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 3.
+in doRedeuceTask: workerID0 begin to do reduce taskID:3 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-3
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker2 report taskID0 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in doReduceTask: workerID:2,reduce taskID 0: done
+workerID:2 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID4 in pahse%!s(mr.TaskPhase=1),left len(ch):5
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 1)ask 4.
+in doRedeuceTask: workerID2 begin to do reduce taskID:4 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-4
+in doReduceTask: reduce filename:mr-1-3
+in doReduceTask: reduce filename:mr-1-4
+in doReduceTask: reduce filename:mr-2-3
+in doReduceTask: reduce filename:mr-2-4
+in doReduceTask: reduce filename:mr-3-3
+in doReduceTask: reduce filename:mr-5-2
+in doReduceTask: reduce filename:mr-4-3
+in doReduceTask: reduce filename:mr-3-4
+in doReduceTask: reduce filename:mr-6-2
+in doReduceTask: reduce filename:mr-5-3
+in doReduceTask: reduce filename:mr-6-3
+in doReduceTask: reduce filename:mr-4-4
+in doReduceTask: reduce filename:mr-7-3
+in doReduceTask: reduce filename:mr-7-2
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID3 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+8,len(ch):5
+9,len(ch):5
+in doReduceTask: workerID:0,reduce taskID 3: done
+workerID:0 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID5 in pahse%!s(mr.TaskPhase=1),left len(ch):4
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 5.
+in doRedeuceTask: workerID0 begin to do reduce taskID:5 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-5
+in doReduceTask: reduce filename:mr-5-4
+in doReduceTask: reduce filename:mr-1-5
+in doReduceTask: reduce filename:mr-6-4
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID2 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+in doReduceTask: workerID:1,reduce taskID 2: done
+workerID:1 begin req for task
+in fetchTask: fetch task 6 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID6 in pahse%!s(mr.TaskPhase=1),left len(ch):3
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 6.
+in doRedeuceTask: workerID1 begin to do reduce taskID:6 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-6
+in doReduceTask: reduce filename:mr-2-5
+in doReduceTask: reduce filename:mr-3-5
+in doReduceTask: reduce filename:mr-7-4
+in doReduceTask: reduce filename:mr-1-6
+in doReduceTask: reduce filename:mr-4-5
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker2 report taskID4 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+8,len(ch):3
+9,len(ch):3
+in doReduceTask: workerID:2,reduce taskID 4: done
+workerID:2 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID7 in pahse%!s(mr.TaskPhase=1),left len(ch):2
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 1)ask 7.
+in doRedeuceTask: workerID2 begin to do reduce taskID:7 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-7
+in doReduceTask: reduce filename:mr-1-7
+in doReduceTask: reduce filename:mr-2-6
+in doReduceTask: reduce filename:mr-5-5
+in doReduceTask: reduce filename:mr-6-5
+in doReduceTask: reduce filename:mr-2-7
+in doReduceTask: reduce filename:mr-3-7
+in doReduceTask: reduce filename:mr-7-5
+in doReduceTask: reduce filename:mr-3-6
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID5 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+8,len(ch):2
+9,len(ch):2
+in doReduceTask: workerID:0,reduce taskID 5: done
+workerID:0 begin req for task
+in fetchTask: fetch task 8 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID8 in pahse%!s(mr.TaskPhase=1),left len(ch):1
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 8.
+in doRedeuceTask: workerID0 begin to do reduce taskID:8 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-8
+in doReduceTask: reduce filename:mr-1-8
+in doReduceTask: reduce filename:mr-4-7
+in doReduceTask: reduce filename:mr-4-6
+in doReduceTask: reduce filename:mr-2-8
+in doReduceTask: reduce filename:mr-5-7
+in doReduceTask: reduce filename:mr-6-7
+in doReduceTask: reduce filename:mr-3-8
+in doReduceTask: reduce filename:mr-5-6
+in doReduceTask: reduce filename:mr-7-7
+in doReduceTask: reduce filename:mr-6-6
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-4-8
+in doReduceTak: reduce point3 write
+in ReportTask: worker2 report taskID7 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+in doReduceTask: workerID:2,reduce taskID 7: done
+workerID:2 begin req for task
+in fetchTask: fetch task 9 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID9 in pahse%!s(mr.TaskPhase=1),left len(ch):0
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 1)ask 9.
+in doRedeuceTask: workerID2 begin to do reduce taskID:9 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-9
+in doReduceTask: reduce filename:mr-1-9
+in doReduceTask: reduce filename:mr-2-9
+in doReduceTask: reduce filename:mr-7-6
+in doReduceTask: reduce filename:mr-5-8
+in doReduceTask: reduce filename:mr-3-9
+in doReduceTask: reduce filename:mr-6-8
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID6 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:1,reduce taskID 6: done
+workerID:1 begin req for task
+in doReduceTask: reduce filename:mr-4-9
+in doReduceTask: reduce filename:mr-7-8
+in doReduceTask: reduce filename:mr-5-9
+in doReduceTask: reduce filename:mr-6-9
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID8 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:0,reduce taskID 8: done
+workerID:0 begin req for task
+in doReduceTask: reduce filename:mr-7-9
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker2 report taskID9 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:2,reduce taskID 9: done
+workerID:2 begin req for task
+unexpected EOF
+unexpected EOF
+unexpected EOF
+--- wc test: PASS
+*** Starting wc test.
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):1
+1,len(ch):1
+in getTask: askCh长度:1。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):2
+2,len(ch):2
+in getTask: askCh长度:2。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):3
+3,len(ch):3
+in getTask: askCh长度:3。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):4
+4,len(ch):4
+in getTask: askCh长度:4。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):5
+5,len(ch):5
+in getTask: askCh长度:5。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):6
+6,len(ch):6
+in getTask: askCh长度:6。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):7
+7,len(ch):7
+in getTask: askCh长度:7。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+workerID:0 begin req for task
+workerID:1 begin req for task
+in fetchTask: fetch task 0 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID0 in pahse%!s(mr.TaskPhase=0),left len(ch):7
+workerID:2 begin req for task
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 0.
+in fetchTask: fetch task 1 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID1 in pahse%!s(mr.TaskPhase=0),left len(ch):6
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 0)ask 1.
+in fetchTask: fetch task 2 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID2 in pahse%!s(mr.TaskPhase=0),left len(ch):5
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 2.
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+in ReportTask: worker1 report taskID0 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+in doMapTask: workerID:1,taskID:0,map filename../pg-being_ernest.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 3 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID3 in pahse%!s(mr.TaskPhase=0),left len(ch):4
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 3.
+in ReportTask: worker0 report taskID2 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+in doMapTask: workerID:0,taskID:2,map filename../pg-frankenstein.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID4 in pahse%!s(mr.TaskPhase=0),left len(ch):3
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 4.
+in ReportTask: worker2 report taskID1 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+in doMapTask: workerID:2,taskID:1,map filename../pg-dorian_gray.txt: done
+workerID:2 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID5 in pahse%!s(mr.TaskPhase=0),left len(ch):2
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 0)ask 5.
+in ReportTask: worker2 report taskID5 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+in doMapTask: workerID:2,taskID:5,map filename../pg-metamorphosis.txt: done
+workerID:2 begin req for task
+in fetchTask: fetch task 6 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID6 in pahse%!s(mr.TaskPhase=0),left len(ch):1
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 0)ask 6.
+in ReportTask: worker1 report taskID3 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+in doMapTask: workerID:1,taskID:3,map filename../pg-grimm.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID7 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 7.
+in ReportTask: worker1 report taskID7 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:1,taskID:7,map filename../pg-tom_sawyer.txt: done
+workerID:1 begin req for task
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in ReportTask: worker2 report taskID6 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:2,taskID:6,map filename../pg-sherlock_holmes.txt: done
+workerID:2 begin req for task
+in ReportTask: worker0 report taskID4 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:0,taskID:4,map filename../pg-huckleberry_finn.txt: done
+workerID:0 begin req for task
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):0
+1,len(ch):0
+in getTask: askCh长度:0。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):0
+2,len(ch):0
+in getTask: askCh长度:0。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):0
+3,len(ch):0
+in fetchTask: fetch task 0 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:0。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):1
+4,len(ch):1
+in fetchTask: fetch task 2 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in fetchTask: fetch task 1 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:1。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):2
+5,len(ch):2
+in getTask: askCh长度:2。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):3
+6,len(ch):3
+in getTask: askCh长度:3。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):4
+7,len(ch):4
+in getTask: askCh长度:4。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):5
+8,len(ch):5
+in getTask: askCh长度:5。当前TaskID:8。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:8 to channel len(ch):6
+9,len(ch):6
+in getTask: askCh长度:6。当前TaskID:9。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:9 to channel len(ch):7
+in ReqOneTask: 1 fetch taskID0 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in ReqOneTask: 0 fetch taskID2 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 0.
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 2.
+in doRedeuceTask: workerID1 begin to do reduce taskID:0 in pahse:%!s(mr.TaskPhase=1)
+in doRedeuceTask: workerID0 begin to do reduce taskID:2 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-0
+in doReduceTask: reduce filename:mr-0-2
+in ReqOneTask: 2 fetch taskID1 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 1)ask 1.
+in doRedeuceTask: workerID2 begin to do reduce taskID:1 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-1
+in doReduceTask: reduce filename:mr-1-0
+in doReduceTask: reduce filename:mr-1-1
+in doReduceTask: reduce filename:mr-1-2
+in doReduceTask: reduce filename:mr-2-0
+in doReduceTask: reduce filename:mr-2-1
+in doReduceTask: reduce filename:mr-3-0
+in doReduceTask: reduce filename:mr-3-1
+in doReduceTask: reduce filename:mr-2-2
+in doReduceTask: reduce filename:mr-4-0
+in doReduceTask: reduce filename:mr-4-1
+in doReduceTask: reduce filename:mr-3-2
+in doReduceTask: reduce filename:mr-5-1
+in doReduceTask: reduce filename:mr-5-0
+in doReduceTask: reduce filename:mr-6-0
+in doReduceTask: reduce filename:mr-6-1
+in doReduceTask: reduce filename:mr-7-1
+in doReduceTask: reduce filename:mr-7-0
+in doReduceTask: reduce filename:mr-4-2
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-5-2
+in doReduceTask: reduce filename:mr-6-2
+in doReduceTask: reduce filename:mr-7-2
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):7
+1,len(ch):7
+2,len(ch):7
+3,len(ch):7
+4,len(ch):7
+5,len(ch):7
+6,len(ch):7
+7,len(ch):7
+8,len(ch):7
+9,len(ch):7
+0,len(ch):7
+1,len(ch):7
+2,len(ch):7
+3,len(ch):7
+4,len(ch):7
+5,len(ch):7
+6,len(ch):7
+7,len(ch):7
+8,len(ch):7
+9,len(ch):7
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID0 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):7
+1,len(ch):7
+2,len(ch):7
+3,len(ch):7
+4,len(ch):7
+5,len(ch):7
+6,len(ch):7
+7,len(ch):7
+8,len(ch):7
+9,len(ch):7
+in doReduceTask: workerID:1,reduce taskID 0: done
+workerID:1 begin req for task
+in fetchTask: fetch task 3 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID3 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 3.
+in doRedeuceTask: workerID1 begin to do reduce taskID:3 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-3
+in doReduceTask: reduce filename:mr-1-3
+in doReduceTak: reduce point3 write
+in ReportTask: worker2 report taskID1 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in doReduceTask: workerID:2,reduce taskID 1: done
+workerID:2 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID4 in pahse%!s(mr.TaskPhase=1),left len(ch):5
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 1)ask 4.
+in doRedeuceTask: workerID2 begin to do reduce taskID:4 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-4
+in doReduceTask: reduce filename:mr-2-3
+in doReduceTask: reduce filename:mr-1-4
+in doReduceTask: reduce filename:mr-3-3
+in doReduceTask: reduce filename:mr-2-4
+in doReduceTask: reduce filename:mr-4-3
+in doReduceTask: reduce filename:mr-3-4
+in doReduceTask: reduce filename:mr-5-3
+in doReduceTask: reduce filename:mr-6-3
+in doReduceTak: reduce point3 write
+in doReduceTask: reduce filename:mr-4-4
+in ReportTask: worker0 report taskID2 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+8,len(ch):5
+9,len(ch):5
+in doReduceTask: workerID:0,reduce taskID 2: done
+workerID:0 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID5 in pahse%!s(mr.TaskPhase=1),left len(ch):4
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 5.
+in doRedeuceTask: workerID0 begin to do reduce taskID:5 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-5
+in doReduceTask: reduce filename:mr-7-3
+in doReduceTask: reduce filename:mr-1-5
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-2-5
+in doReduceTask: reduce filename:mr-5-4
+in doReduceTask: reduce filename:mr-3-5
+in doReduceTask: reduce filename:mr-6-4
+in doReduceTask: reduce filename:mr-4-5
+in doReduceTask: reduce filename:mr-7-4
+in doReduceTask: reduce filename:mr-5-5
+in doReduceTask: reduce filename:mr-6-5
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-7-5
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID3 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+in doReduceTask: workerID:1,reduce taskID 3: done
+workerID:1 begin req for task
+in fetchTask: fetch task 6 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID6 in pahse%!s(mr.TaskPhase=1),left len(ch):3
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 6.
+in doRedeuceTask: workerID1 begin to do reduce taskID:6 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-6
+in doReduceTask: reduce filename:mr-1-6
+in doReduceTask: reduce filename:mr-2-6
+in doReduceTask: reduce filename:mr-3-6
+in doReduceTask: reduce filename:mr-4-6
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID5 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+8,len(ch):3
+9,len(ch):3
+in doReduceTask: workerID:0,reduce taskID 5: done
+workerID:0 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID7 in pahse%!s(mr.TaskPhase=1),left len(ch):2
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 7.
+in doRedeuceTask: workerID0 begin to do reduce taskID:7 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-7
+in doReduceTask: reduce filename:mr-1-7
+in doReduceTak: reduce point3 write
+in ReportTask: worker2 report taskID4 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+8,len(ch):2
+9,len(ch):2
+in doReduceTask: workerID:2,reduce taskID 4: done
+workerID:2 begin req for task
+in fetchTask: fetch task 8 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID8 in pahse%!s(mr.TaskPhase=1),left len(ch):1
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 1)ask 8.
+in doRedeuceTask: workerID2 begin to do reduce taskID:8 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-8
+in doReduceTask: reduce filename:mr-5-6
+in doReduceTask: reduce filename:mr-1-8
+in doReduceTask: reduce filename:mr-2-7
+in doReduceTask: reduce filename:mr-6-6
+in doReduceTask: reduce filename:mr-3-7
+in doReduceTask: reduce filename:mr-2-8
+in doReduceTask: reduce filename:mr-4-7
+in doReduceTask: reduce filename:mr-7-6
+in doReduceTask: reduce filename:mr-3-8
+in doReduceTask: reduce filename:mr-5-7
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-6-7
+in doReduceTask: reduce filename:mr-4-8
+in doReduceTask: reduce filename:mr-7-7
+in doReduceTask: reduce filename:mr-5-8
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-6-8
+in doReduceTask: reduce filename:mr-7-8
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID7 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+in doReduceTask: workerID:0,reduce taskID 7: done
+workerID:0 begin req for task
+in fetchTask: fetch task 9 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID9 in pahse%!s(mr.TaskPhase=1),left len(ch):0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 9.
+in doRedeuceTask: workerID0 begin to do reduce taskID:9 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-9
+in doReduceTask: reduce filename:mr-1-9
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: reduce filename:mr-2-9
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID6 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:1,reduce taskID 6: done
+workerID:1 begin req for task
+in doReduceTask: reduce filename:mr-3-9
+in doReduceTask: reduce filename:mr-4-9
+in doReduceTask: reduce filename:mr-5-9
+in doReduceTask: reduce filename:mr-6-9
+in doReduceTask: reduce filename:mr-7-9
+in doReduceTak: reduce point3 write
+in ReportTask: worker2 report taskID8 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:2,reduce taskID 8: done
+workerID:2 begin req for task
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID9 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:0,reduce taskID 9: done
+workerID:0 begin req for task
+unexpected EOF
+unexpected EOF
+unexpected EOF
+--- wc_wait test: PASS
+*** Starting indexer test.
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):1
+1,len(ch):1
+in getTask: askCh长度:1。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):2
+2,len(ch):2
+in getTask: askCh长度:2。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):3
+3,len(ch):3
+in getTask: askCh长度:3。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):4
+4,len(ch):4
+in getTask: askCh长度:4。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):5
+5,len(ch):5
+in getTask: askCh长度:5。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):6
+6,len(ch):6
+in getTask: askCh长度:6。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):7
+7,len(ch):7
+in getTask: askCh长度:7。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+workerID:0 begin req for task
+workerID:1 begin req for task
+in fetchTask: fetch task 0 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID0 in pahse%!s(mr.TaskPhase=0),left len(ch):6
+in fetchTask: fetch task 1 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID1 in pahse%!s(mr.TaskPhase=0),left len(ch):6
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 0.
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 1.
+in ReportTask: worker1 report taskID0 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+in doMapTask: workerID:1,taskID:0,map filename../pg-being_ernest.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 2 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID2 in pahse%!s(mr.TaskPhase=0),left len(ch):5
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 2.
+in ReportTask: worker0 report taskID1 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+in doMapTask: workerID:0,taskID:1,map filename../pg-dorian_gray.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 3 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID3 in pahse%!s(mr.TaskPhase=0),left len(ch):4
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 3.
+in ReportTask: worker1 report taskID2 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+in doMapTask: workerID:1,taskID:2,map filename../pg-frankenstein.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID4 in pahse%!s(mr.TaskPhase=0),left len(ch):3
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 4.
+in ReportTask: worker0 report taskID3 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+in doMapTask: workerID:0,taskID:3,map filename../pg-grimm.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID5 in pahse%!s(mr.TaskPhase=0),left len(ch):2
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 5.
+in ReportTask: worker0 report taskID5 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+in doMapTask: workerID:0,taskID:5,map filename../pg-metamorphosis.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 6 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID6 in pahse%!s(mr.TaskPhase=0),left len(ch):1
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 6.
+in ReportTask: worker1 report taskID4 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+in doMapTask: workerID:1,taskID:4,map filename../pg-huckleberry_finn.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID7 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 7.
+in ReportTask: worker0 report taskID6 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:0,taskID:6,map filename../pg-sherlock_holmes.txt: done
+workerID:0 begin req for task
+in ReportTask: worker1 report taskID7 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:1,taskID:7,map filename../pg-tom_sawyer.txt: done
+workerID:1 begin req for task
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):0
+1,len(ch):0
+in getTask: askCh长度:0。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):0
+2,len(ch):0
+in getTask: askCh长度:0。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):1
+3,len(ch):1
+in fetchTask: fetch task 0 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:1。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):2
+in fetchTask: fetch task 1 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+4,len(ch):2
+in getTask: askCh长度:2。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):3
+5,len(ch):3
+in getTask: askCh长度:3。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):4
+6,len(ch):4
+in getTask: askCh长度:4。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):5
+7,len(ch):5
+in getTask: askCh长度:5。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):6
+8,len(ch):6
+in getTask: askCh长度:6。当前TaskID:8。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:8 to channel len(ch):7
+9,len(ch):7
+in getTask: askCh长度:7。当前TaskID:9。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:9 to channel len(ch):8
+in ReqOneTask: 0 fetch taskID0 in pahse%!s(mr.TaskPhase=1),left len(ch):8
+in ReqOneTask: 1 fetch taskID1 in pahse%!s(mr.TaskPhase=1),left len(ch):8
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 1.
+in doRedeuceTask: workerID1 begin to do reduce taskID:1 in pahse:%!s(mr.TaskPhase=1)
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 0.
+in doReduceTask: reduce filename:mr-0-1
+in doRedeuceTask: workerID0 begin to do reduce taskID:0 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-0
+in doReduceTask: reduce filename:mr-1-1
+in doReduceTask: reduce filename:mr-1-0
+in doReduceTask: reduce filename:mr-2-1
+in doReduceTask: reduce filename:mr-2-0
+in doReduceTask: reduce filename:mr-3-1
+in doReduceTask: reduce filename:mr-3-0
+in doReduceTask: reduce filename:mr-4-1
+in doReduceTask: reduce filename:mr-4-0
+in doReduceTask: reduce filename:mr-5-1
+in doReduceTask: reduce filename:mr-5-0
+in doReduceTask: reduce filename:mr-6-0
+in doReduceTask: reduce filename:mr-6-1
+in doReduceTask: reduce filename:mr-7-1
+in doReduceTask: reduce filename:mr-7-0
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID0 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+8,len(ch):8
+9,len(ch):8
+in doReduceTask: workerID:0,reduce taskID 0: done
+workerID:0 begin req for task
+in ReportTask: worker1 report taskID1 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+8,len(ch):8
+9,len(ch):8
+in doReduceTask: workerID:1,reduce taskID 1: done
+workerID:1 begin req for task
+in fetchTask: fetch task 2 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID2 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 2.
+in doRedeuceTask: workerID0 begin to do reduce taskID:2 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-2
+in fetchTask: fetch task 3 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID3 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 3.
+in doRedeuceTask: workerID1 begin to do reduce taskID:3 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-3
+in doReduceTask: reduce filename:mr-1-2
+in doReduceTask: reduce filename:mr-1-3
+in doReduceTask: reduce filename:mr-2-3
+in doReduceTask: reduce filename:mr-2-2
+in doReduceTask: reduce filename:mr-3-3
+in doReduceTask: reduce filename:mr-3-2
+in doReduceTask: reduce filename:mr-4-3
+in doReduceTask: reduce filename:mr-4-2
+in doReduceTask: reduce filename:mr-5-2
+in doReduceTask: reduce filename:mr-5-3
+in doReduceTask: reduce filename:mr-6-2
+in doReduceTask: reduce filename:mr-6-3
+in doReduceTask: reduce filename:mr-7-2
+in doReduceTask: reduce filename:mr-7-3
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID2 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in doReduceTask: workerID:0,reduce taskID 2: done
+workerID:0 begin req for task
+in ReportTask: worker1 report taskID3 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in doReduceTask: workerID:1,reduce taskID 3: done
+workerID:1 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID4 in pahse%!s(mr.TaskPhase=1),left len(ch):5
+in fetchTask: fetch task 5 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID5 in pahse%!s(mr.TaskPhase=1),left len(ch):4
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 4.
+in doRedeuceTask: workerID0 begin to do reduce taskID:4 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-4
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 5.
+in doRedeuceTask: workerID1 begin to do reduce taskID:5 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-5
+in doReduceTask: reduce filename:mr-1-4
+in doReduceTask: reduce filename:mr-1-5
+in doReduceTask: reduce filename:mr-2-4
+in doReduceTask: reduce filename:mr-2-5
+in doReduceTask: reduce filename:mr-3-5
+in doReduceTask: reduce filename:mr-3-4
+in doReduceTask: reduce filename:mr-4-5
+in doReduceTask: reduce filename:mr-4-4
+in doReduceTask: reduce filename:mr-5-5
+in doReduceTask: reduce filename:mr-5-4
+in doReduceTask: reduce filename:mr-6-5
+in doReduceTask: reduce filename:mr-6-4
+in doReduceTask: reduce filename:mr-7-5
+in doReduceTask: reduce filename:mr-7-4
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID5 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+in doReduceTask: workerID:1,reduce taskID 5: done
+workerID:1 begin req for task
+in doReduceTak: reduce point3 write
+in fetchTask: fetch task 6 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID6 in pahse%!s(mr.TaskPhase=1),left len(ch):3
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 6.
+in doRedeuceTask: workerID1 begin to do reduce taskID:6 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-6
+in ReportTask: worker0 report taskID4 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+8,len(ch):3
+9,len(ch):3
+in doReduceTask: workerID:0,reduce taskID 4: done
+workerID:0 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID7 in pahse%!s(mr.TaskPhase=1),left len(ch):2
+in doReduceTask: reduce filename:mr-1-6
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 7.
+in doRedeuceTask: workerID0 begin to do reduce taskID:7 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-7
+in doReduceTask: reduce filename:mr-1-7
+in doReduceTask: reduce filename:mr-2-6
+in doReduceTask: reduce filename:mr-2-7
+in doReduceTask: reduce filename:mr-3-6
+in doReduceTask: reduce filename:mr-3-7
+in doReduceTask: reduce filename:mr-4-6
+in doReduceTask: reduce filename:mr-4-7
+in doReduceTask: reduce filename:mr-5-7
+in doReduceTask: reduce filename:mr-5-6
+in doReduceTask: reduce filename:mr-6-7
+in doReduceTask: reduce filename:mr-6-6
+in doReduceTask: reduce filename:mr-7-6
+in doReduceTask: reduce filename:mr-7-7
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID6 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+8,len(ch):2
+9,len(ch):2
+in doReduceTask: workerID:1,reduce taskID 6: done
+workerID:1 begin req for task
+in fetchTask: fetch task 8 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID8 in pahse%!s(mr.TaskPhase=1),left len(ch):1
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 8.
+in doRedeuceTask: workerID1 begin to do reduce taskID:8 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-8
+in doReduceTak: reduce point3 write
+in doReduceTask: reduce filename:mr-1-8
+in ReportTask: worker0 report taskID7 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+in doReduceTask: workerID:0,reduce taskID 7: done
+workerID:0 begin req for task
+in fetchTask: fetch task 9 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID9 in pahse%!s(mr.TaskPhase=1),left len(ch):0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 9.
+in doRedeuceTask: workerID0 begin to do reduce taskID:9 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-9
+in doReduceTask: reduce filename:mr-2-8
+in doReduceTask: reduce filename:mr-1-9
+in doReduceTask: reduce filename:mr-3-8
+in doReduceTask: reduce filename:mr-2-9
+in doReduceTask: reduce filename:mr-4-8
+in doReduceTask: reduce filename:mr-3-9
+in doReduceTask: reduce filename:mr-5-8
+in doReduceTask: reduce filename:mr-4-9
+in doReduceTask: reduce filename:mr-6-8
+in doReduceTask: reduce filename:mr-7-8
+in doReduceTask: reduce filename:mr-5-9
+in doReduceTask: reduce filename:mr-6-9
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-7-9
+in doReduceTak: reduce point3 write
+in doReduceTask: reduce point2 begin to reducef
+in ReportTask: worker1 report taskID8 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:1,reduce taskID 8: done
+workerID:1 begin req for task
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID9 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:0,reduce taskID 9: done
+workerID:0 begin req for task
+unexpected EOF
+unexpected EOF
+--- indexer test: PASS
+*** Starting map parallelism test.
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):1
+1,len(ch):1
+in getTask: askCh长度:1。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):2
+2,len(ch):2
+in getTask: askCh长度:2。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):3
+3,len(ch):3
+in getTask: askCh长度:3。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):4
+4,len(ch):4
+in getTask: askCh长度:4。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):5
+5,len(ch):5
+in getTask: askCh长度:5。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):6
+6,len(ch):6
+in getTask: askCh长度:6。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):7
+7,len(ch):7
+in getTask: askCh长度:7。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+workerID:1 begin req for task
+workerID:0 begin req for task
+in fetchTask: fetch task 0 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID0 in pahse%!s(mr.TaskPhase=0),left len(ch):7
+in fetchTask: fetch task 1 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID1 in pahse%!s(mr.TaskPhase=0),left len(ch):6
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 1.
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 0.
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+in ReportTask: worker1 report taskID1 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+in doMapTask: workerID:1,taskID:1,map filename../pg-dorian_gray.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 2 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID2 in pahse%!s(mr.TaskPhase=0),left len(ch):5
+in ReportTask: worker0 report taskID0 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 2.
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+in doMapTask: workerID:0,taskID:0,map filename../pg-being_ernest.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 3 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID3 in pahse%!s(mr.TaskPhase=0),left len(ch):4
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 3.
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+in ReportTask: worker0 report taskID3 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+in ReportTask: worker1 report taskID2 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+in doMapTask: workerID:0,taskID:3,map filename../pg-grimm.txt: done
+workerID:0 begin req for task
+in doMapTask: workerID:1,taskID:2,map filename../pg-frankenstein.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID4 in pahse%!s(mr.TaskPhase=0),left len(ch):2
+in fetchTask: fetch task 5 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID5 in pahse%!s(mr.TaskPhase=0),left len(ch):2
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 4.
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 5.
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+in ReportTask: worker1 report taskID4 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+in doMapTask: workerID:1,taskID:4,map filename../pg-huckleberry_finn.txt: done
+workerID:1 begin req for task
+in fetchTask: fetch task 6 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID6 in pahse%!s(mr.TaskPhase=0),left len(ch):1
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 6.
+in ReportTask: worker0 report taskID5 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+in doMapTask: workerID:0,taskID:5,map filename../pg-metamorphosis.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID7 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 7.
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in ReportTask: worker1 report taskID6 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:1,taskID:6,map filename../pg-sherlock_holmes.txt: done
+workerID:1 begin req for task
+in ReportTask: worker0 report taskID7 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:0,taskID:7,map filename../pg-tom_sawyer.txt: done
+workerID:0 begin req for task
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):0
+1,len(ch):0
+in getTask: askCh长度:0。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):0
+2,len(ch):0
+in getTask: askCh长度:0。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):1
+3,len(ch):1
+in fetchTask: fetch task 0 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:1。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):2
+4,len(ch):2
+in fetchTask: fetch task 1 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:2。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):3
+5,len(ch):3
+in getTask: askCh长度:3。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):4
+6,len(ch):4
+in getTask: askCh长度:4。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):5
+7,len(ch):5
+in getTask: askCh长度:5。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):6
+8,len(ch):6
+in getTask: askCh长度:6。当前TaskID:8。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:8 to channel len(ch):7
+9,len(ch):7
+in getTask: askCh长度:7。当前TaskID:9。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:9 to channel len(ch):8
+in ReqOneTask: 1 fetch taskID0 in pahse%!s(mr.TaskPhase=1),left len(ch):8
+in ReqOneTask: 0 fetch taskID1 in pahse%!s(mr.TaskPhase=1),left len(ch):8
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 1.
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 0.
+in doRedeuceTask: workerID0 begin to do reduce taskID:1 in pahse:%!s(mr.TaskPhase=1)
+in doRedeuceTask: workerID1 begin to do reduce taskID:0 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-1
+in doReduceTask: reduce filename:mr-0-0
+in doReduceTask: reduce filename:mr-1-0
+in doReduceTask: reduce filename:mr-1-1
+in doReduceTask: reduce filename:mr-2-0
+in doReduceTask: reduce filename:mr-2-1
+in doReduceTask: reduce filename:mr-3-0
+in doReduceTask: reduce filename:mr-3-1
+in doReduceTask: reduce filename:mr-4-0
+in doReduceTask: reduce filename:mr-4-1
+in doReduceTask: reduce filename:mr-5-1
+in doReduceTask: reduce filename:mr-5-0
+in doReduceTask: reduce filename:mr-6-1
+in doReduceTask: reduce filename:mr-6-0
+in doReduceTask: reduce filename:mr-7-1
+in doReduceTask: reduce filename:mr-7-0
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID1 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+8,len(ch):8
+9,len(ch):8
+in doReduceTask: workerID:0,reduce taskID 1: done
+workerID:0 begin req for task
+in fetchTask: fetch task 2 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID2 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 2.
+in doRedeuceTask: workerID0 begin to do reduce taskID:2 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-2
+in ReportTask: worker1 report taskID0 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+in doReduceTask: reduce filename:mr-1-2
+in doReduceTask: reduce filename:mr-2-2
+in doReduceTask: reduce filename:mr-3-2
+0,len(ch):7
+1,len(ch):7
+in doReduceTask: reduce filename:mr-4-2
+2,len(ch):7
+3,len(ch):7
+4,len(ch):7
+in doReduceTask: reduce filename:mr-5-2
+5,len(ch):7
+6,len(ch):7
+7,len(ch):7
+in doReduceTask: reduce filename:mr-6-2
+8,len(ch):7
+9,len(ch):7
+in doReduceTask: reduce filename:mr-7-2
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in doReduceTask: workerID:1,reduce taskID 0: done
+workerID:1 begin req for task
+in ReportTask: worker0 report taskID2 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):7
+1,len(ch):7
+2,len(ch):7
+3,len(ch):7
+4,len(ch):7
+5,len(ch):7
+6,len(ch):7
+7,len(ch):7
+8,len(ch):7
+9,len(ch):7
+in fetchTask: fetch task 3 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID3 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in doReduceTask: workerID:0,reduce taskID 2: done
+workerID:0 begin req for task
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 3.
+in doRedeuceTask: workerID1 begin to do reduce taskID:3 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-3
+in doReduceTask: reduce filename:mr-1-3
+in doReduceTask: reduce filename:mr-2-3
+in doReduceTask: reduce filename:mr-3-3
+in doReduceTask: reduce filename:mr-4-3
+in doReduceTask: reduce filename:mr-5-3
+in fetchTask: fetch task 4 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID4 in pahse%!s(mr.TaskPhase=1),left len(ch):5
+in doReduceTask: reduce filename:mr-6-3
+in doReduceTask: reduce filename:mr-7-3
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 4.
+in doRedeuceTask: workerID0 begin to do reduce taskID:4 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-4
+in doReduceTask: reduce filename:mr-1-4
+in doReduceTask: reduce filename:mr-2-4
+in doReduceTask: reduce filename:mr-3-4
+in doReduceTask: reduce filename:mr-4-4
+in doReduceTask: reduce filename:mr-5-4
+in doReduceTask: reduce filename:mr-6-4
+in doReduceTask: reduce filename:mr-7-4
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID3 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+8,len(ch):5
+9,len(ch):5
+in doReduceTask: workerID:1,reduce taskID 3: done
+workerID:1 begin req for task
+in ReportTask: worker0 report taskID4 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+8,len(ch):5
+9,len(ch):5
+in doReduceTask: workerID:0,reduce taskID 4: done
+workerID:0 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID5 in pahse%!s(mr.TaskPhase=1),left len(ch):4
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 5.
+in doRedeuceTask: workerID1 begin to do reduce taskID:5 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-5
+in doReduceTask: reduce filename:mr-1-5
+in doReduceTask: reduce filename:mr-2-5
+in doReduceTask: reduce filename:mr-3-5
+in fetchTask: fetch task 6 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID6 in pahse%!s(mr.TaskPhase=1),left len(ch):3
+in doReduceTask: reduce filename:mr-4-5
+in doReduceTask: reduce filename:mr-5-5
+in doReduceTask: reduce filename:mr-6-5
+in doReduceTask: reduce filename:mr-7-5
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 6.
+in doRedeuceTask: workerID0 begin to do reduce taskID:6 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-6
+in doReduceTask: reduce filename:mr-1-6
+in doReduceTask: reduce filename:mr-2-6
+in doReduceTask: reduce filename:mr-3-6
+in doReduceTask: reduce filename:mr-4-6
+in doReduceTask: reduce filename:mr-5-6
+in doReduceTask: reduce filename:mr-6-6
+in doReduceTask: reduce filename:mr-7-6
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID5 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+8,len(ch):3
+9,len(ch):3
+in doReduceTask: workerID:1,reduce taskID 5: done
+workerID:1 begin req for task
+in ReportTask: worker0 report taskID6 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+8,len(ch):3
+9,len(ch):3
+in doReduceTask: workerID:0,reduce taskID 6: done
+workerID:0 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID7 in pahse%!s(mr.TaskPhase=1),left len(ch):2
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 7.
+in doRedeuceTask: workerID1 begin to do reduce taskID:7 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-7
+in doReduceTask: reduce filename:mr-1-7
+in fetchTask: fetch task 8 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in doReduceTask: reduce filename:mr-2-7
+in ReqOneTask: 0 fetch taskID8 in pahse%!s(mr.TaskPhase=1),left len(ch):1
+in doReduceTask: reduce filename:mr-3-7
+in doReduceTask: reduce filename:mr-4-7
+in doReduceTask: reduce filename:mr-5-7
+in doReduceTask: reduce filename:mr-6-7
+in doReduceTask: reduce filename:mr-7-7
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 8.
+in doRedeuceTask: workerID0 begin to do reduce taskID:8 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-8
+in doReduceTask: reduce filename:mr-1-8
+in doReduceTask: reduce filename:mr-2-8
+in doReduceTask: reduce filename:mr-3-8
+in doReduceTask: reduce filename:mr-4-8
+in doReduceTask: reduce filename:mr-5-8
+in doReduceTask: reduce filename:mr-6-8
+in doReduceTask: reduce filename:mr-7-8
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID7 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+in doReduceTask: workerID:1,reduce taskID 7: done
+workerID:1 begin req for task
+in ReportTask: worker0 report taskID8 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+in doReduceTask: workerID:0,reduce taskID 8: done
+workerID:0 begin req for task
+in fetchTask: fetch task 9 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID9 in pahse%!s(mr.TaskPhase=1),left len(ch):0
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 9.
+in doRedeuceTask: workerID1 begin to do reduce taskID:9 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-9
+in doReduceTask: reduce filename:mr-1-9
+in doReduceTask: reduce filename:mr-2-9
+in doReduceTask: reduce filename:mr-3-9
+in doReduceTask: reduce filename:mr-4-9
+in doReduceTask: reduce filename:mr-5-9
+in doReduceTask: reduce filename:mr-6-9
+in doReduceTask: reduce filename:mr-7-9
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID9 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:1,reduce taskID 9: done
+workerID:1 begin req for task
+unexpected EOF
+unexpected EOF
+--- map parallelism test: PASS
+*** Starting reduce parallelism test.
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):1
+1,len(ch):1
+in getTask: askCh长度:1。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):2
+2,len(ch):2
+in getTask: askCh长度:2。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):3
+3,len(ch):3
+in getTask: askCh长度:3。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):4
+4,len(ch):4
+in getTask: askCh长度:4。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):5
+5,len(ch):5
+in getTask: askCh长度:5。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):6
+6,len(ch):6
+in getTask: askCh长度:6。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):7
+7,len(ch):7
+in getTask: askCh长度:7。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+workerID:0 begin req for task
+in fetchTask: fetch task 0 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID0 in pahse%!s(mr.TaskPhase=0),left len(ch):7
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 0.
+workerID:1 begin req for task
+in ReportTask: worker0 report taskID0 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):7
+1,len(ch):7
+2,len(ch):7
+3,len(ch):7
+4,len(ch):7
+5,len(ch):7
+6,len(ch):7
+7,len(ch):7
+in fetchTask: fetch task 1 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in doMapTask: workerID:0,taskID:0,map filename../pg-being_ernest.txt: done
+in ReqOneTask: 1 fetch taskID1 in pahse%!s(mr.TaskPhase=0),left len(ch):6
+workerID:0 begin req for task
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 1.
+in fetchTask: fetch task 2 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID2 in pahse%!s(mr.TaskPhase=0),left len(ch):5
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 2.
+in ReportTask: worker1 report taskID1 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+in doMapTask: workerID:1,taskID:1,map filename../pg-dorian_gray.txt: done
+workerID:1 begin req for task
+in ReportTask: worker0 report taskID2 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+in doMapTask: workerID:0,taskID:2,map filename../pg-frankenstein.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 3 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID3 in pahse%!s(mr.TaskPhase=0),left len(ch):4
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 3.
+in fetchTask: fetch task 4 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID4 in pahse%!s(mr.TaskPhase=0),left len(ch):3
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 4.
+in ReportTask: worker1 report taskID3 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+in ReportTask: worker0 report taskID4 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+in doMapTask: workerID:1,taskID:3,map filename../pg-grimm.txt: done
+workerID:1 begin req for task
+in doMapTask: workerID:0,taskID:4,map filename../pg-huckleberry_finn.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID5 in pahse%!s(mr.TaskPhase=0),left len(ch):2
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 5.
+in fetchTask: fetch task 6 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID6 in pahse%!s(mr.TaskPhase=0),left len(ch):1
+in ReportTask: worker1 report taskID5 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+in doMapTask: workerID:1,taskID:5,map filename../pg-metamorphosis.txt: done
+workerID:1 begin req for task
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 6.
+in fetchTask: fetch task 7 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID7 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 7.
+in ReportTask: worker1 report taskID7 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in ReportTask: worker0 report taskID6 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:1,taskID:7,map filename../pg-tom_sawyer.txt: done
+workerID:1 begin req for task
+in doMapTask: workerID:0,taskID:6,map filename../pg-sherlock_holmes.txt: done
+workerID:0 begin req for task
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):0
+1,len(ch):0
+in getTask: askCh长度:0。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):0
+2,len(ch):0
+in fetchTask: fetch task 0 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:0。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):1
+3,len(ch):1
+in getTask: askCh长度:1。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):2
+4,len(ch):2
+in getTask: askCh长度:2。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):3
+5,len(ch):3
+in getTask: askCh长度:3。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in fetchTask: fetch task 1 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in reQueneTask: put task:5 to channel len(ch):4
+6,len(ch):4
+in getTask: askCh长度:4。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):5
+7,len(ch):5
+in getTask: askCh长度:5。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):6
+8,len(ch):6
+in getTask: askCh长度:6。当前TaskID:8。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:8 to channel len(ch):7
+9,len(ch):7
+in getTask: askCh长度:7。当前TaskID:9。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:9 to channel len(ch):8
+in ReqOneTask: 1 fetch taskID0 in pahse%!s(mr.TaskPhase=1),left len(ch):8
+in ReqOneTask: 0 fetch taskID1 in pahse%!s(mr.TaskPhase=1),left len(ch):8
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 1.
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 0.
+in doRedeuceTask: workerID0 begin to do reduce taskID:1 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-1
+in doRedeuceTask: workerID1 begin to do reduce taskID:0 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-0
+in doReduceTask: reduce filename:mr-1-1
+in doReduceTask: reduce filename:mr-1-0
+in doReduceTask: reduce filename:mr-2-1
+in doReduceTask: reduce filename:mr-2-0
+in doReduceTask: reduce filename:mr-3-1
+in doReduceTask: reduce filename:mr-3-0
+in doReduceTask: reduce filename:mr-4-1
+in doReduceTask: reduce filename:mr-4-0
+in doReduceTask: reduce filename:mr-5-0
+in doReduceTask: reduce filename:mr-5-1
+in doReduceTask: reduce filename:mr-6-0
+in doReduceTask: reduce filename:mr-6-1
+in doReduceTask: reduce filename:mr-7-0
+in doReduceTask: reduce filename:mr-7-1
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+8,len(ch):8
+9,len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+8,len(ch):8
+9,len(ch):8
+in doReduceTak: reduce point3 write
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID0 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+8,len(ch):8
+9,len(ch):8
+in ReportTask: worker0 report taskID1 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+8,len(ch):8
+9,len(ch):8
+in doReduceTask: workerID:1,reduce taskID 0: done
+workerID:1 begin req for task
+in doReduceTask: workerID:0,reduce taskID 1: done
+workerID:0 begin req for task
+in fetchTask: fetch task 2 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID2 in pahse%!s(mr.TaskPhase=1),left len(ch):7
+in fetchTask: fetch task 3 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID3 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 2.
+in doRedeuceTask: workerID0 begin to do reduce taskID:2 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-2
+in doReduceTask: reduce filename:mr-1-2
+in doReduceTask: reduce filename:mr-2-2
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 3.
+in doReduceTask: reduce filename:mr-3-2
+in doRedeuceTask: workerID1 begin to do reduce taskID:3 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-3
+in doReduceTask: reduce filename:mr-4-2
+in doReduceTask: reduce filename:mr-5-2
+in doReduceTask: reduce filename:mr-6-2
+in doReduceTask: reduce filename:mr-1-3
+in doReduceTask: reduce filename:mr-7-2
+in doReduceTask: reduce filename:mr-2-3
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-3-3
+in doReduceTask: reduce filename:mr-4-3
+in doReduceTask: reduce filename:mr-5-3
+in doReduceTask: reduce filename:mr-6-3
+in doReduceTask: reduce filename:mr-7-3
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID2 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in doReduceTask: workerID:0,reduce taskID 2: done
+workerID:0 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID4 in pahse%!s(mr.TaskPhase=1),left len(ch):5
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 4.
+in doRedeuceTask: workerID0 begin to do reduce taskID:4 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-4
+in doReduceTask: reduce filename:mr-1-4
+in doReduceTask: reduce filename:mr-2-4
+in doReduceTask: reduce filename:mr-3-4
+in doReduceTask: reduce filename:mr-4-4
+in doReduceTask: reduce filename:mr-5-4
+in doReduceTask: reduce filename:mr-6-4
+in doReduceTask: reduce filename:mr-7-4
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+8,len(ch):5
+9,len(ch):5
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+8,len(ch):5
+9,len(ch):5
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID3 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):5
+1,len(ch):5
+2,len(ch):5
+3,len(ch):5
+4,len(ch):5
+5,len(ch):5
+6,len(ch):5
+7,len(ch):5
+8,len(ch):5
+9,len(ch):5
+in doReduceTask: workerID:1,reduce taskID 3: done
+workerID:1 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID5 in pahse%!s(mr.TaskPhase=1),left len(ch):4
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 5.
+in doRedeuceTask: workerID1 begin to do reduce taskID:5 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-5
+in doReduceTask: reduce filename:mr-1-5
+in doReduceTask: reduce filename:mr-2-5
+in doReduceTask: reduce filename:mr-3-5
+in doReduceTask: reduce filename:mr-4-5
+in doReduceTask: reduce filename:mr-5-5
+in doReduceTask: reduce filename:mr-6-5
+in doReduceTask: reduce filename:mr-7-5
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID5 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+8,len(ch):4
+9,len(ch):4
+in doReduceTask: workerID:1,reduce taskID 5: done
+workerID:1 begin req for task
+in fetchTask: fetch task 6 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID6 in pahse%!s(mr.TaskPhase=1),left len(ch):3
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 6.
+in doRedeuceTask: workerID1 begin to do reduce taskID:6 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-6
+in doReduceTask: reduce filename:mr-1-6
+in doReduceTask: reduce filename:mr-2-6
+in doReduceTask: reduce filename:mr-3-6
+in doReduceTask: reduce filename:mr-4-6
+in doReduceTask: reduce filename:mr-5-6
+in doReduceTask: reduce filename:mr-6-6
+in doReduceTask: reduce filename:mr-7-6
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID4 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+8,len(ch):3
+9,len(ch):3
+in doReduceTask: workerID:0,reduce taskID 4: done
+workerID:0 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID7 in pahse%!s(mr.TaskPhase=1),left len(ch):2
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 7.
+in doRedeuceTask: workerID0 begin to do reduce taskID:7 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-7
+in doReduceTask: reduce filename:mr-1-7
+in doReduceTask: reduce filename:mr-2-7
+in doReduceTask: reduce filename:mr-3-7
+in doReduceTask: reduce filename:mr-4-7
+in doReduceTask: reduce filename:mr-5-7
+in doReduceTask: reduce filename:mr-6-7
+in doReduceTask: reduce filename:mr-7-7
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID7 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+8,len(ch):2
+9,len(ch):2
+in doReduceTask: workerID:0,reduce taskID 7: done
+workerID:0 begin req for task
+in fetchTask: fetch task 8 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID8 in pahse%!s(mr.TaskPhase=1),left len(ch):1
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 8.
+in doRedeuceTask: workerID0 begin to do reduce taskID:8 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-8
+in doReduceTask: reduce filename:mr-1-8
+in doReduceTask: reduce filename:mr-2-8
+in doReduceTask: reduce filename:mr-3-8
+in doReduceTask: reduce filename:mr-4-8
+in doReduceTask: reduce filename:mr-5-8
+in doReduceTask: reduce filename:mr-6-8
+in doReduceTask: reduce filename:mr-7-8
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID8 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+in doReduceTask: workerID:0,reduce taskID 8: done
+workerID:0 begin req for task
+in fetchTask: fetch task 9 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID9 in pahse%!s(mr.TaskPhase=1),left len(ch):0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 9.
+in doRedeuceTask: workerID0 begin to do reduce taskID:9 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-9
+in doReduceTask: reduce filename:mr-1-9
+in doReduceTask: reduce filename:mr-2-9
+in doReduceTask: reduce filename:mr-3-9
+in doReduceTask: reduce filename:mr-4-9
+in doReduceTask: reduce filename:mr-5-9
+in doReduceTask: reduce filename:mr-6-9
+in doReduceTask: reduce filename:mr-7-9
+in doReduceTask: reduce point2 begin to reducef
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTak: reduce point3 write
+in ReportTask: worker1 report taskID6 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:1,reduce taskID 6: done
+workerID:1 begin req for task
+in doReduceTak: reduce point3 write
+in ReportTask: worker0 report taskID9 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:0,reduce taskID 9: done
+workerID:0 begin req for task
+unexpected EOF
+unexpected EOF
+--- reduce parallelism test: PASS
+*** Starting crash test.
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):1
+1,len(ch):1
+in getTask: askCh长度:1。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):2
+2,len(ch):2
+in getTask: askCh长度:2。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):3
+3,len(ch):3
+in getTask: askCh长度:3。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):4
+4,len(ch):4
+in getTask: askCh长度:4。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):5
+5,len(ch):5
+in getTask: askCh长度:5。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):6
+6,len(ch):6
+in getTask: askCh长度:6。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):7
+7,len(ch):7
+in getTask: askCh长度:7。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+0,len(ch):8
+1,len(ch):8
+2,len(ch):8
+3,len(ch):8
+4,len(ch):8
+5,len(ch):8
+6,len(ch):8
+7,len(ch):8
+workerID:0 begin req for task
+workerID:1 begin req for task
+workerID:2 begin req for task
+workerID:3 begin req for task
+in fetchTask: fetch task 0 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID0 in pahse%!s(mr.TaskPhase=0),left len(ch):7
+in fetchTask: fetch task 1 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID1 in pahse%!s(mr.TaskPhase=0),left len(ch):6
+in fetchTask: fetch task 2 from taskCh for workerID:3,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 3 fetch taskID2 in pahse%!s(mr.TaskPhase=0),left len(ch):5
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 0)ask 0.
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 0)ask 1.
+in reqTask: worker 3 fetch s%!t(mr.TaskPhase= 0)ask 2.
+in fetchTask: fetch task 3 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID3 in pahse%!s(mr.TaskPhase=0),left len(ch):4
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 3.
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+in ReportTask: worker2 report taskID1 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):4
+1,len(ch):4
+2,len(ch):4
+3,len(ch):4
+4,len(ch):4
+5,len(ch):4
+6,len(ch):4
+7,len(ch):4
+in doMapTask: workerID:2,taskID:1,map filename../pg-dorian_gray.txt: done
+workerID:2 begin req for task
+in fetchTask: fetch task 4 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID4 in pahse%!s(mr.TaskPhase=0),left len(ch):3
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 0)ask 4.
+in ReportTask: worker2 report taskID4 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):3
+1,len(ch):3
+2,len(ch):3
+3,len(ch):3
+4,len(ch):3
+5,len(ch):3
+6,len(ch):3
+7,len(ch):3
+in doMapTask: workerID:2,taskID:4,map filename../pg-huckleberry_finn.txt: done
+workerID:2 begin req for task
+in fetchTask: fetch task 5 from taskCh for workerID:2,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 2 fetch taskID5 in pahse%!s(mr.TaskPhase=0),left len(ch):2
+in reqTask: worker 2 fetch s%!t(mr.TaskPhase= 0)ask 5.
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+7,len(ch):2
+workerID:4 begin req for task
+in fetchTask: fetch task 6 from taskCh for workerID:4,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 4 fetch taskID6 in pahse%!s(mr.TaskPhase=0),left len(ch):1
+in reqTask: worker 4 fetch s%!t(mr.TaskPhase= 0)ask 6.
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+in ReportTask: worker0 report taskID3 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+in doMapTask: workerID:0,taskID:3,map filename../pg-grimm.txt: done
+workerID:0 begin req for task
+in fetchTask: fetch task 7 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID7 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 7.
+in ReportTask: worker0 report taskID7 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:0,taskID:7,map filename../pg-tom_sawyer.txt: done
+workerID:0 begin req for task
+workerID:5 begin req for task
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in ReportTask: worker3 report taskID2 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:3,taskID:2,map filename../pg-frankenstein.txt: done
+workerID:3 begin req for task
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+running timeout
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:2 WorkerID:1 StartTime:2020-12-05 12:49:41.162768368 +0800 CST m=+1.016646593} {Status:3 WorkerID:2 StartTime:2020-12-05 12:49:41.162811162 +0800 CST m=+1.016689400} {Status:3 WorkerID:3 StartTime:2020-12-05 12:49:41.162848312 +0800 CST m=+1.016726543} {Status:3 WorkerID:0 StartTime:2020-12-05 12:49:41.163667686 +0800 CST m=+1.017545908} {Status:3 WorkerID:2 StartTime:2020-12-05 12:49:41.944407149 +0800 CST m=+1.798285496} {Status:2 WorkerID:2 StartTime:2020-12-05 12:49:41.949652857 +0800 CST m=+1.803531198} {Status:2 WorkerID:4 StartTime:2020-12-05 12:49:42.966369616 +0800 CST m=+2.820247877} {Status:3 WorkerID:0 StartTime:2020-12-05 12:49:43.95009243 +0800 CST m=+3.803970784}]。
+in reQueneTask: put task:0 to channel len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in fetchTask: fetch task 0 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID0 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 0.
+in ReportTask: worker0 report taskID0 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:0,taskID:0,map filename../pg-being_ernest.txt: done
+workerID:0 begin req for task
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+running timeout
+in getTask: askCh长度:0。当前TaskID:5。
+当前taskStatus状态[{Status:3 WorkerID:0 StartTime:2020-12-05 12:49:46.650072871 +0800 CST m=+6.503951223} {Status:3 WorkerID:2 StartTime:2020-12-05 12:49:41.162811162 +0800 CST m=+1.016689400} {Status:3 WorkerID:3 StartTime:2020-12-05 12:49:41.162848312 +0800 CST m=+1.016726543} {Status:3 WorkerID:0 StartTime:2020-12-05 12:49:41.163667686 +0800 CST m=+1.017545908} {Status:3 WorkerID:2 StartTime:2020-12-05 12:49:41.944407149 +0800 CST m=+1.798285496} {Status:2 WorkerID:2 StartTime:2020-12-05 12:49:41.949652857 +0800 CST m=+1.803531198} {Status:2 WorkerID:4 StartTime:2020-12-05 12:49:42.966369616 +0800 CST m=+2.820247877} {Status:3 WorkerID:0 StartTime:2020-12-05 12:49:43.95009243 +0800 CST m=+3.803970784}]。
+in reQueneTask: put task:5 to channel len(ch):0
+6,len(ch):0
+7,len(ch):0
+in fetchTask: fetch task 5 from taskCh for workerID:5,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 5 fetch taskID5 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 5 fetch s%!t(mr.TaskPhase= 0)ask 5.
+in ReportTask: worker5 report taskID5 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:5,taskID:5,map filename../pg-metamorphosis.txt: done
+workerID:5 begin req for task
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+running timeout
+in getTask: askCh长度:0。当前TaskID:6。
+当前taskStatus状态[{Status:3 WorkerID:0 StartTime:2020-12-05 12:49:46.650072871 +0800 CST m=+6.503951223} {Status:3 WorkerID:2 StartTime:2020-12-05 12:49:41.162811162 +0800 CST m=+1.016689400} {Status:3 WorkerID:3 StartTime:2020-12-05 12:49:41.162848312 +0800 CST m=+1.016726543} {Status:3 WorkerID:0 StartTime:2020-12-05 12:49:41.163667686 +0800 CST m=+1.017545908} {Status:3 WorkerID:2 StartTime:2020-12-05 12:49:41.944407149 +0800 CST m=+1.798285496} {Status:3 WorkerID:5 StartTime:2020-12-05 12:49:47.15025682 +0800 CST m=+7.004135185} {Status:2 WorkerID:4 StartTime:2020-12-05 12:49:42.966369616 +0800 CST m=+2.820247877} {Status:3 WorkerID:0 StartTime:2020-12-05 12:49:43.95009243 +0800 CST m=+3.803970784}]。
+in reQueneTask: put task:6 to channel len(ch):0
+7,len(ch):0
+in fetchTask: fetch task 6 from taskCh for workerID:3,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 3 fetch taskID6 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 3 fetch s%!t(mr.TaskPhase= 0)ask 6.
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+workerID:6 begin req for task
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in ReportTask: worker1 report taskID0 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+in doMapTask: workerID:1,taskID:0,map filename../pg-being_ernest.txt: done
+workerID:1 begin req for task
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+running timeout
+in getTask: askCh长度:0。当前TaskID:6。
+当前taskStatus状态[{Status:3 WorkerID:0 StartTime:2020-12-05 12:49:46.650072871 +0800 CST m=+6.503951223} {Status:3 WorkerID:2 StartTime:2020-12-05 12:49:41.162811162 +0800 CST m=+1.016689400} {Status:3 WorkerID:3 StartTime:2020-12-05 12:49:41.162848312 +0800 CST m=+1.016726543} {Status:3 WorkerID:0 StartTime:2020-12-05 12:49:41.163667686 +0800 CST m=+1.017545908} {Status:3 WorkerID:2 StartTime:2020-12-05 12:49:41.944407149 +0800 CST m=+1.798285496} {Status:3 WorkerID:5 StartTime:2020-12-05 12:49:47.15025682 +0800 CST m=+7.004135185} {Status:2 WorkerID:3 StartTime:2020-12-05 12:49:48.150636678 +0800 CST m=+8.004515040} {Status:3 WorkerID:0 StartTime:2020-12-05 12:49:43.95009243 +0800 CST m=+3.803970784}]。
+in reQueneTask: put task:6 to channel len(ch):0
+7,len(ch):0
+in fetchTask: fetch task 6 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=0),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID6 in pahse%!s(mr.TaskPhase=0),left len(ch):0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 0)ask 6.
+in ReportTask: worker0 report taskID6 in phase%!s(mr.TaskPhase=0) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+in doMapTask: workerID:0,taskID:6,map filename../pg-sherlock_holmes.txt: done
+workerID:0 begin req for task
+0,len(ch):0
+in getTask: askCh长度:0。当前TaskID:0。
+当前taskStatus状态[{Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:0 to channel len(ch):0
+1,len(ch):0
+in getTask: askCh长度:0。当前TaskID:1。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:1 to channel len(ch):0
+2,len(ch):0
+in getTask: askCh长度:0。当前TaskID:2。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:2 to channel len(ch):0
+3,len(ch):0
+in fetchTask: fetch task 0 from taskCh for workerID:5,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:0。当前TaskID:3。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:3 to channel len(ch):0
+4,len(ch):0
+in fetchTask: fetch task 2 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in fetchTask: fetch task 3 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:0。当前TaskID:4。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:4 to channel len(ch):1
+5,len(ch):1
+in getTask: askCh长度:1。当前TaskID:5。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:5 to channel len(ch):2
+6,len(ch):2
+in fetchTask: fetch task 1 from taskCh for workerID:6,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in getTask: askCh长度:2。当前TaskID:6。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:6 to channel len(ch):3
+7,len(ch):3
+in getTask: askCh长度:3。当前TaskID:7。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:7 to channel len(ch):4
+8,len(ch):4
+in getTask: askCh长度:4。当前TaskID:8。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:8 to channel len(ch):5
+9,len(ch):5
+in getTask: askCh长度:5。当前TaskID:9。
+当前taskStatus状态[{Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:1 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC} {Status:0 WorkerID:0 StartTime:0001-01-01 00:00:00 +0000 UTC}]。
+in reQueneTask: put task:9 to channel len(ch):6
+in ReqOneTask: 5 fetch taskID0 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in ReqOneTask: 1 fetch taskID2 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in ReqOneTask: 0 fetch taskID3 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in ReqOneTask: 6 fetch taskID1 in pahse%!s(mr.TaskPhase=1),left len(ch):6
+in reqTask: worker 5 fetch s%!t(mr.TaskPhase= 1)ask 0.
+in doRedeuceTask: workerID5 begin to do reduce taskID:0 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-0
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 2.
+in doReduceTask: reduce filename:mr-1-0
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 3.
+in doRedeuceTask: workerID1 begin to do reduce taskID:2 in pahse:%!s(mr.TaskPhase=1)
+in doRedeuceTask: workerID0 begin to do reduce taskID:3 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-2
+in doReduceTask: reduce filename:mr-2-0
+in doReduceTask: reduce filename:mr-0-3
+in doReduceTask: reduce filename:mr-3-0
+in doReduceTask: reduce filename:mr-1-3
+in doReduceTask: reduce filename:mr-4-0
+in doReduceTask: reduce filename:mr-1-2
+in doReduceTask: reduce filename:mr-2-3
+in doReduceTask: reduce filename:mr-5-0
+in doReduceTask: reduce filename:mr-2-2
+in doReduceTask: reduce filename:mr-3-3
+in doReduceTask: reduce filename:mr-6-0
+in doReduceTask: reduce filename:mr-4-3
+in doReduceTask: reduce filename:mr-3-2
+in doReduceTask: reduce filename:mr-7-0
+in doReduceTask: reduce filename:mr-5-3
+in doReduceTask: reduce filename:mr-4-2
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTask: reduce filename:mr-6-3
+in doReduceTask: reduce filename:mr-5-2
+in doReduceTask: reduce filename:mr-7-3
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in doReduceTak: reduce point3 write
+in doReduceTask: reduce filename:mr-6-2
+in doReduceTask: reduce filename:mr-7-2
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in reqTask: worker 6 fetch s%!t(mr.TaskPhase= 1)ask 1.
+in doRedeuceTask: workerID6 begin to do reduce taskID:1 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-1
+in doReduceTask: reduce filename:mr-1-1
+in doReduceTask: reduce filename:mr-2-1
+in doReduceTask: reduce filename:mr-3-1
+in doReduceTask: reduce filename:mr-4-1
+in ReportTask: worker5 report taskID0 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+in doReduceTask: reduce filename:mr-5-1
+in doReduceTask: reduce filename:mr-6-1
+0,len(ch):6
+in doReduceTask: reduce filename:mr-7-1
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+in doReduceTask: reduce point2 begin to reducef
+4,len(ch):6
+in doReduceTak: reduce point3 write
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in ReportTask: worker1 report taskID2 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):6
+in doReduceTask: workerID:5,reduce taskID 0: done
+1,len(ch):6
+workerID:5 begin req for task
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in doReduceTask: workerID:1,reduce taskID 2: done
+workerID:1 begin req for task
+in ReportTask: worker0 report taskID3 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in ReportTask: worker6 report taskID1 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):6
+1,len(ch):6
+2,len(ch):6
+3,len(ch):6
+4,len(ch):6
+5,len(ch):6
+6,len(ch):6
+7,len(ch):6
+8,len(ch):6
+9,len(ch):6
+in doReduceTask: workerID:6,reduce taskID 1: done
+in fetchTask: fetch task 4 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+workerID:6 begin req for task
+in ReqOneTask: 1 fetch taskID4 in pahse%!s(mr.TaskPhase=1),left len(ch):5
+in fetchTask: fetch task 5 from taskCh for workerID:5,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 5 fetch taskID5 in pahse%!s(mr.TaskPhase=1),left len(ch):4
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 4.
+in doRedeuceTask: workerID1 begin to do reduce taskID:4 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-4
+in doReduceTask: reduce filename:mr-1-4
+in doReduceTask: reduce filename:mr-2-4
+in doReduceTask: workerID:0,reduce taskID 3: done
+in doReduceTask: reduce filename:mr-3-4
+workerID:0 begin req for task
+in doReduceTask: reduce filename:mr-4-4
+in doReduceTask: reduce filename:mr-5-4
+in doReduceTask: reduce filename:mr-6-4
+in doReduceTask: reduce filename:mr-7-4
+in reqTask: worker 5 fetch s%!t(mr.TaskPhase= 1)ask 5.
+in doReduceTask: reduce point2 begin to reducef
+in doRedeuceTask: workerID5 begin to do reduce taskID:5 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTak: reduce point3 write
+in doReduceTask: reduce filename:mr-0-5
+in doReduceTask: reduce filename:mr-1-5
+in doReduceTask: reduce filename:mr-2-5
+in doReduceTask: reduce filename:mr-3-5
+in doReduceTask: reduce filename:mr-4-5
+in doReduceTask: reduce filename:mr-5-5
+in doReduceTask: reduce filename:mr-6-5
+in doReduceTask: reduce filename:mr-7-5
+in doReduceTask: reduce point2 begin to reducef
+in fetchTask: fetch task 6 from taskCh for workerID:6,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 6 fetch taskID6 in pahse%!s(mr.TaskPhase=1),left len(ch):3
+in fetchTask: fetch task 7 from taskCh for workerID:0,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 0 fetch taskID7 in pahse%!s(mr.TaskPhase=1),left len(ch):2
+in reqTask: worker 6 fetch s%!t(mr.TaskPhase= 1)ask 6.
+in ReportTask: worker1 report taskID4 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+in doRedeuceTask: workerID6 begin to do reduce taskID:6 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-6
+0,len(ch):2
+1,len(ch):2
+2,len(ch):2
+in doReduceTask: reduce filename:mr-1-6
+3,len(ch):2
+4,len(ch):2
+5,len(ch):2
+6,len(ch):2
+in doReduceTask: reduce filename:mr-2-6
+7,len(ch):2
+8,len(ch):2
+9,len(ch):2
+in doReduceTask: reduce filename:mr-3-6
+in doReduceTask: reduce filename:mr-4-6
+in doReduceTask: reduce filename:mr-5-6
+in doReduceTask: reduce filename:mr-6-6
+in doReduceTask: reduce filename:mr-7-6
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in doReduceTask: workerID:1,reduce taskID 4: done
+workerID:1 begin req for task
+in reqTask: worker 0 fetch s%!t(mr.TaskPhase= 1)ask 7.
+in doRedeuceTask: workerID0 begin to do reduce taskID:7 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-7
+in doReduceTask: reduce filename:mr-1-7
+in doReduceTask: reduce filename:mr-2-7
+in doReduceTask: reduce filename:mr-3-7
+in doReduceTask: reduce filename:mr-4-7
+in doReduceTask: reduce filename:mr-5-7
+in doReduceTask: reduce filename:mr-6-7
+in doReduceTask: reduce filename:mr-7-7
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in ReportTask: worker6 report taskID6 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+in fetchTask: fetch task 8 from taskCh for workerID:1,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 1 fetch taskID8 in pahse%!s(mr.TaskPhase=1),left len(ch):1
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+9,len(ch):1
+in doReduceTask: workerID:6,reduce taskID 6: done
+workerID:6 begin req for task
+in reqTask: worker 1 fetch s%!t(mr.TaskPhase= 1)ask 8.
+in doRedeuceTask: workerID1 begin to do reduce taskID:8 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-8
+in doReduceTask: reduce filename:mr-1-8
+in doReduceTask: reduce filename:mr-2-8
+in ReportTask: worker0 report taskID7 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+in doReduceTask: reduce filename:mr-3-8
+in doReduceTask: reduce filename:mr-4-8
+0,len(ch):1
+1,len(ch):1
+2,len(ch):1
+in doReduceTask: reduce filename:mr-5-8
+3,len(ch):1
+4,len(ch):1
+5,len(ch):1
+in doReduceTask: reduce filename:mr-6-8
+6,len(ch):1
+7,len(ch):1
+8,len(ch):1
+in doReduceTask: reduce filename:mr-7-8
+9,len(ch):1
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in fetchTask: fetch task 9 from taskCh for workerID:6,task phase:%!s(mr.TaskPhase=1),done%!s(bool=false)
+in ReqOneTask: 6 fetch taskID9 in pahse%!s(mr.TaskPhase=1),left len(ch):0
+in doReduceTask: workerID:0,reduce taskID 7: done
+workerID:0 begin req for task
+in reqTask: worker 6 fetch s%!t(mr.TaskPhase= 1)ask 9.
+in doRedeuceTask: workerID6 begin to do reduce taskID:9 in pahse:%!s(mr.TaskPhase=1)
+in doReduceTask: reduce filename:mr-0-9
+in doReduceTask: reduce filename:mr-1-9
+in ReportTask: worker1 report taskID8 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+in doReduceTask: reduce filename:mr-2-9
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+in doReduceTask: reduce filename:mr-3-9
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+in doReduceTask: reduce filename:mr-4-9
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: reduce filename:mr-5-9
+in doReduceTask: reduce filename:mr-6-9
+in doReduceTask: reduce filename:mr-7-9
+in doReduceTask: reduce point2 begin to reducef
+in doReduceTak: reduce point3 write
+in doReduceTask: workerID:1,reduce taskID 8: done
+workerID:1 begin req for task
+in ReportTask: worker6 report taskID9 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:6,reduce taskID 9: done
+workerID:6 begin req for task
+in doReduceTak: reduce point3 write
+in ReportTask: worker5 report taskID5 in phase%!s(mr.TaskPhase=1) status=%!s(bool=true)
+0,len(ch):0
+1,len(ch):0
+2,len(ch):0
+3,len(ch):0
+4,len(ch):0
+5,len(ch):0
+6,len(ch):0
+7,len(ch):0
+8,len(ch):0
+9,len(ch):0
+in doReduceTask: workerID:5,reduce taskID 5: done
+workerID:5 begin req for task
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+--- crash test: PASS
+*** PASSED ALL TESTS

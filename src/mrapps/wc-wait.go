@@ -24,16 +24,22 @@ import (
 // and look only at the contents argument. The return value is a slice
 // of key/value pairs.
 //
-func maybeWait() {
+func maybeWait(isMap bool) {
 	max := big.NewInt(1000)
 	rr, _ := crand.Int(crand.Reader, max)
 	if rr.Int64() < 500 {
-		// delay for a while
-		time.Sleep(time.Duration(time.Second * 2))
+		if isMap {
+			// delay for a while
+			time.Sleep(time.Duration(time.Second * 2))
+		} else {
+			// reducef should not wait for too long because reduce work for evry key.
+			// 10ms will fail for a long long time.
+			time.Sleep(time.Duration(time.Millisecond * 1))
+		}
 	}
 }
 func Map(filename string, contents string) []mr.KeyValue {
-	maybeWait()
+	maybeWait(true)
 	// function to detect word separators.
 	ff := func(r rune) bool { return !unicode.IsLetter(r) }
 
@@ -54,7 +60,7 @@ func Map(filename string, contents string) []mr.KeyValue {
 // any map task.
 //
 func Reduce(key string, values []string) string {
-	maybeWait()
+	maybeWait(false)
 	// return the number of occurrences of this word.
 	return strconv.Itoa(len(values))
 }
