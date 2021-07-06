@@ -1,1 +1,1 @@
-> MIT 6.824 spring
+> MIT 6.824 spring: mapreduce only.
